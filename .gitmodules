@@ -1,0 +1,9 @@
+[submodule "ros1_ws/src/bt_prompt"]
+	path = ros1_ws/src/bt_prompt
+	url = git@github.com:ARG-NCTU/bt_prompt.git
+[submodule "ros1_ws/src/behavior_tree"]
+	path = ros1_ws/src/behavior_tree
+	url = git@github.com:ARG-NCTU/bt_execution.git
+[submodule "ros1_ws/src/behavior_tree_msgs"]
+	path = ros1_ws/src/behavior_tree_msgs
+	url = git@github.com:ARG-NCTU/behavior_tree_msgs.git
