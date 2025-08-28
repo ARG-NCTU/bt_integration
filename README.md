@@ -1,5 +1,7 @@
 # BT-integration
 
+This repo is for integration of all behavior tree submodules.
+
 ## Clone Repository
 
 ```bash
@@ -14,7 +16,7 @@ git submodule sync --recursive
 git submodule update --init --recursive
 ```
 
-## Setting HuggingFace token
+## Setting OPENAI API key
 
 ```bash
 vim ~/.bashrc
@@ -71,9 +73,9 @@ Build ROS1 Workspace
 source build_ros1_all.sh
 ```
 
-## Usage
+## Usage for behavior tree generation
 
-Behavior Tree Generation (from gpt3.5)
+Behavior Tree Generation (from gpt-3.5-turbo-instruct)
 ```bash
 source Docker/ros1-cpu/run.sh
 source environment_ros1.sh
