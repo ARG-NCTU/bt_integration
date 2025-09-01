@@ -62,10 +62,10 @@ docker run \
     $EXTENSION_MOUNT \
     -w "/home/arg/$PROJ_NAME" \
     --user "root:root" \
-    --name perception-fusion-ros1-cpu \
+    --name bt_integration-ros1-cpu \
     --network host \
     --privileged \
     --security-opt seccomp=unconfined \
     $DOCKER_OPTS \
-    argnctu/perception-fusion:ros1-cpu \
+    argnctu/bt_integration:ros1-cpu \
     $BASH_OPTION

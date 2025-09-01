@@ -57,17 +57,6 @@ source Docker/ros1-cpu/run.sh
 
 ### 2. Build Catkin Workspace
 
-Fix python packages error
-```bash
-python3 -m pip install --no-cache-dir --upgrade \
-      setuptools==58.2.0 \
-      wheel==0.38.4 \
-      packaging==23.2 \
-      importlib-metadata==4.13.0 \
-      osrf-pycommon==2.0.2 \
-      catkin-tools==0.9.4
-```
-
 Build ROS1 Workspace
 ```bash
 source build_ros1_all.sh
